@@ -10,31 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WpfApp4
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for WindowBattleShip.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class WindowBattleShip : Window
     {
-        public MainWindow()
+        public WindowBattleShip()
         {
             InitializeComponent();
         }
 
-        private void StartButton_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            WindowBattleShip winBS = new WindowBattleShip();
-            winBS.Show();
-            this.Close();
-        }
 
-        private void QuitButton_Click(object sender, RoutedEventArgs e)
-        {
-            this.Close();
         }
     }
 }
