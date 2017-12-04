@@ -18,227 +18,227 @@
                 <ColumnDefinition Width="13*"/>
                 <ColumnDefinition Width="61*"/>
             </Grid.ColumnDefinitions>
-            <Button Content="A1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Grid.ColumnSpan="2"/>
-            <Button Content="A2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,0,0,0" Grid.Column="1"/>
-            <Button Content="A3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="40" Click="Button_Click" Margin="50,0,0,360" Grid.ColumnSpan="2" Grid.Column="1"/>
-            <Button Content="A4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,0,0,0" Grid.Column="2"/>
-            <Button Content="A5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,0,0,0" Grid.Column="2"/>
-            <Button Content="A6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,0,0,0" Grid.Column="2"/>
-            <Button Content="A7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,0,0,0" Grid.Column="2"/>
-            <Button Content="A8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,0,0,0" Grid.Column="2"/>
-            <Button Content="A9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,0,0,0" Grid.Column="2"/>
-            <Button Content="A10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,0,0,0" Grid.Column="2"/>
+            <Button x:Name="A1_Player_Button" Content="A1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Grid.ColumnSpan="2"/>
+            <Button x:Name="A2_Player_Button" Content="A2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,0,0,0" Grid.Column="1"/>
+            <Button x:Name="A3_Player_Button" Content="A3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="40" Click="Button_Click" Margin="50,0,0,360" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="A4_Player_Button" Content="A4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,0,0,0" Grid.Column="2"/>
+            <Button x:Name="A5_Player_Button" Content="A5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,0,0,0" Grid.Column="2"/>
+            <Button x:Name="A6_Player_Button" Content="A6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,0,0,0" Grid.Column="2"/>
+            <Button x:Name="A7_Player_Button" Content="A7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,0,0,0" Grid.Column="2"/>
+            <Button x:Name="A8_Player_Button" Content="A8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,0,0,0" Grid.Column="2"/>
+            <Button x:Name="A9_Player_Button" Content="A9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,0,0,0" Grid.Column="2"/>
+            <Button x:Name="A10_Player_Button" Content="A10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,0,0,0" Grid.Column="2"/>
 
-            <Button Content="B1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,40,0,0" Grid.ColumnSpan="2"/>
-            <Button Content="B2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,40,0,0" Grid.Column="1"/>
-            <Button Content="B3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,40,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
-            <Button Content="B4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,40,0,0" Grid.Column="2"/>
-            <Button Content="B5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,40,0,0" Grid.Column="2"/>
-            <Button Content="B6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,40,0,0" Grid.Column="2"/>
-            <Button Content="B7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,40,0,0" Grid.Column="2"/>
-            <Button Content="B8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,40,0,0" Grid.Column="2"/>
-            <Button Content="B9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,40,0,0" Grid.Column="2"/>
-            <Button Content="B10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,40,0,0" Grid.Column="2"/>
+            <Button x:Name="B1_Player_Button" Content="B1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,40,0,0" Grid.ColumnSpan="2"/>
+            <Button x:Name="B2_Player_Button" Content="B2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,40,0,0" Grid.Column="1"/>
+            <Button x:Name="B3_Player_Button" Content="B3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,40,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="B4_Player_Button" Content="B4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,40,0,0" Grid.Column="2"/>
+            <Button x:Name="B5_Player_Button" Content="B5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,40,0,0" Grid.Column="2"/>
+            <Button x:Name="B6_Player_Button" Content="B6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,40,0,0" Grid.Column="2"/>
+            <Button x:Name="B7_Player_Button" Content="B7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,40,0,0" Grid.Column="2"/>
+            <Button x:Name="B8_Player_Button" Content="B8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,40,0,0" Grid.Column="2"/>
+            <Button x:Name="B9_Player_Button" Content="B9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,40,0,0" Grid.Column="2"/>
+            <Button x:Name="B10_Player_Button" Content="B10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,40,0,0" Grid.Column="2"/>
 
-            <Button Content="C1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,80,0,0" Grid.ColumnSpan="2"/>
-            <Button Content="C2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,80,0,0" Grid.Column="1"/>
-            <Button Content="C3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,80,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
-            <Button Content="C4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,80,0,0" Grid.Column="2"/>
-            <Button Content="C5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,80,0,0" Grid.Column="2"/>
-            <Button Content="C6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,80,0,0" Grid.Column="2"/>
-            <Button Content="C7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,80,0,0" Grid.Column="2"/>
-            <Button Content="C8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,80,0,0" Grid.Column="2"/>
-            <Button Content="C9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,80,0,0" Grid.Column="2"/>
-            <Button Content="C10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,80,0,0" Grid.Column="2"/>
+            <Button x:Name="C1_Player_Button" Content="C1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,80,0,0" Grid.ColumnSpan="2"/>
+            <Button x:Name="C2_Player_Button" Content="C2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,80,0,0" Grid.Column="1"/>
+            <Button x:Name="C3_Player_Button" Content="C3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,80,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="C4_Player_Button" Content="C4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,80,0,0" Grid.Column="2"/>
+            <Button x:Name="C5_Player_Button" Content="C5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,80,0,0" Grid.Column="2"/>
+            <Button x:Name="C6_Player_Button" Content="C6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,80,0,0" Grid.Column="2"/>
+            <Button x:Name="C7_Player_Button" Content="C7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,80,0,0" Grid.Column="2"/>
+            <Button x:Name="C8_Player_Button" Content="C8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,80,0,0" Grid.Column="2"/>
+            <Button x:Name="C9_Player_Button" Content="C9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,80,0,0" Grid.Column="2"/>
+            <Button x:Name="C10_Player_Button" Content="C10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,80,0,0" Grid.Column="2"/>
 
-            <Button Content="D1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,120,0,0" Grid.ColumnSpan="2"/>
-            <Button Content="D2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,120,0,0" Grid.Column="1"/>
-            <Button Content="D3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,120,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
-            <Button Content="D4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,120,0,0" Grid.Column="2"/>
-            <Button Content="D5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,120,0,0" Grid.Column="2"/>
-            <Button Content="D6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,120,0,0" Grid.Column="2"/>
-            <Button Content="D7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,120,0,0" Grid.Column="2"/>
-            <Button Content="D8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,120,0,0" Grid.Column="2"/>
-            <Button Content="D9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,120,0,0" Grid.Column="2"/>
-            <Button Content="D10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,120,0,0" Grid.Column="2"/>
+            <Button x:Name="D1_Player_Button" Content="D1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,120,0,0" Grid.ColumnSpan="2"/>
+            <Button x:Name="D12_Player_Button" Content="D2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,120,0,0" Grid.Column="1"/>
+            <Button x:Name="D13_Player_Button" Content="D3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,120,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="D14_Player_Button" Content="D4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,120,0,0" Grid.Column="2"/>
+            <Button x:Name="D15_Player_Button" Content="D5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,120,0,0" Grid.Column="2"/>
+            <Button x:Name="D16_Player_Button" Content="D6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,120,0,0" Grid.Column="2"/>
+            <Button x:Name="D17_Player_Button" Content="D7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,120,0,0" Grid.Column="2"/>
+            <Button x:Name="D18_Player_Button" Content="D8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,120,0,0" Grid.Column="2"/>
+            <Button x:Name="D19_Player_Button" Content="D9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,120,0,0" Grid.Column="2"/>
+            <Button x:Name="D10_Player_Button" Content="D10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,120,0,0" Grid.Column="2"/>
 
-            <Button Content="E1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,160,0,0" Grid.ColumnSpan="2"/>
-            <Button Content="E2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,160,0,0" Grid.Column="1"/>
-            <Button Content="E3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,160,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
-            <Button Content="E4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,160,0,0" Grid.Column="2"/>
-            <Button Content="E5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,160,0,0" Grid.Column="2"/>
-            <Button Content="E6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,160,0,0" Grid.Column="2"/>
-            <Button Content="E7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,160,0,0" Grid.Column="2"/>
-            <Button Content="E8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,160,0,0" Grid.Column="2"/>
-            <Button Content="E9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,160,0,0" Grid.Column="2"/>
-            <Button Content="E10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,160,0,0" Grid.Column="2"/>
+            <Button x:Name="E1_Player_Button" Content="E1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,160,0,0" Grid.ColumnSpan="2"/>
+            <Button x:Name="E2_Player_Button" Content="E2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,160,0,0" Grid.Column="1"/>
+            <Button x:Name="E3_Player_Button" Content="E3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,160,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="E4_Player_Button" Content="E4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,160,0,0" Grid.Column="2"/>
+            <Button x:Name="E5_Player_Button" Content="E5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,160,0,0" Grid.Column="2"/>
+            <Button x:Name="E6_Player_Button" Content="E6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,160,0,0" Grid.Column="2"/>
+            <Button x:Name="E7_Player_Button" Content="E7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,160,0,0" Grid.Column="2"/>
+            <Button x:Name="E8_Player_Button" Content="E8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,160,0,0" Grid.Column="2"/>
+            <Button x:Name="E9_Player_Button" Content="E9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,160,0,0" Grid.Column="2"/>
+            <Button x:Name="E10_Player_Button" Content="E10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,160,0,0" Grid.Column="2"/>
 
-            <Button Content="F1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,200,0,0" Grid.ColumnSpan="2"/>
-            <Button Content="F2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,200,0,0" Grid.Column="1"/>
-            <Button Content="F3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,200,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
-            <Button Content="F4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,200,0,0" Grid.Column="2"/>
-            <Button Content="F5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,200,0,0" Grid.Column="2"/>
-            <Button Content="F6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,200,0,0" Grid.Column="2"/>
-            <Button Content="F7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,200,0,0" Grid.Column="2"/>
-            <Button Content="F8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,200,0,0" Grid.Column="2"/>
-            <Button Content="F9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,200,0,0" Grid.Column="2"/>
-            <Button Content="F10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,200,0,0" Grid.Column="2"/>
+            <Button x:Name="F1_Player_Button" Content="F1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,200,0,0" Grid.ColumnSpan="2"/>
+            <Button x:Name="F2_Player_Button" Content="F2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,200,0,0" Grid.Column="1"/>
+            <Button x:Name="F3_Player_Button" Content="F3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,200,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="F4_Player_Button" Content="F4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,200,0,0" Grid.Column="2"/>
+            <Button x:Name="F5_Player_Button" Content="F5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,200,0,0" Grid.Column="2"/>
+            <Button x:Name="F6_Player_Button" Content="F6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,200,0,0" Grid.Column="2"/>
+            <Button x:Name="F7_Player_Button" Content="F7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,200,0,0" Grid.Column="2"/>
+            <Button x:Name="F8_Player_Button" Content="F8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,200,0,0" Grid.Column="2"/>
+            <Button x:Name="F9_Player_Button" Content="F9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,200,0,0" Grid.Column="2"/>
+            <Button x:Name="F10_Player_Button" Content="F10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,200,0,0" Grid.Column="2"/>
 
-            <Button Content="G1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,240,0,0" Grid.ColumnSpan="2"/>
-            <Button Content="G2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,240,0,0" Grid.Column="1"/>
-            <Button Content="G3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,240,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
-            <Button Content="G4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,240,0,0" Grid.Column="2"/>
-            <Button Content="G5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,240,0,0" Grid.Column="2"/>
-            <Button Content="G6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,240,0,0" Grid.Column="2"/>
-            <Button Content="G7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,240,0,0" Grid.Column="2"/>
-            <Button Content="G8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,240,0,0" Grid.Column="2"/>
-            <Button Content="G9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,240,0,0" Grid.Column="2"/>
-            <Button Content="G10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,240,0,0" Grid.Column="2"/>
+            <Button x:Name="G1_Player_Button" Content="G1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,240,0,0" Grid.ColumnSpan="2"/>
+            <Button x:Name="G2_Player_Button" Content="G2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,240,0,0" Grid.Column="1"/>
+            <Button x:Name="G3_Player_Button" Content="G3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,240,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="G4_Player_Button" Content="G4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,240,0,0" Grid.Column="2"/>
+            <Button x:Name="G5_Player_Button" Content="G5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,240,0,0" Grid.Column="2"/>
+            <Button x:Name="G6_Player_Button" Content="G6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,240,0,0" Grid.Column="2"/>
+            <Button x:Name="G7_Player_Button" Content="G7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,240,0,0" Grid.Column="2"/>
+            <Button x:Name="G8_Player_Button" Content="G8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,240,0,0" Grid.Column="2"/>
+            <Button x:Name="G9_Player_Button" Content="G9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,240,0,0" Grid.Column="2"/>
+            <Button x:Name="G10_Player_Button" Content="G10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,240,0,0" Grid.Column="2"/>
 
-            <Button Content="H1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,280,0,0" Grid.ColumnSpan="2"/>
-            <Button Content="H2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,280,0,0" Grid.Column="1"/>
-            <Button Content="H3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,280,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
-            <Button Content="H4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,280,0,0" Grid.Column="2"/>
-            <Button Content="H5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,280,0,0" Grid.Column="2"/>
-            <Button Content="H6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,280,0,0" Grid.Column="2"/>
-            <Button Content="H7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,280,0,0" Grid.Column="2"/>
-            <Button Content="H8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,280,0,0" Grid.Column="2"/>
-            <Button Content="H9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,280,0,0" Grid.Column="2"/>
-            <Button Content="H10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,280,0,0" Grid.Column="2"/>
+            <Button x:Name="H1_Player_Button" Content="H1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,280,0,0" Grid.ColumnSpan="2"/>
+            <Button x:Name="H2_Player_Button" Content="H2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,280,0,0" Grid.Column="1"/>
+            <Button x:Name="H3_Player_Button" Content="H3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,280,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="H4_Player_Button" Content="H4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,280,0,0" Grid.Column="2"/>
+            <Button x:Name="H5_Player_Button" Content="H5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,280,0,0" Grid.Column="2"/>
+            <Button x:Name="H6_Player_Button" Content="H6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,280,0,0" Grid.Column="2"/>
+            <Button x:Name="H7_Player_Button" Content="H7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,280,0,0" Grid.Column="2"/>
+            <Button x:Name="H8_Player_Button" Content="H8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,280,0,0" Grid.Column="2"/>
+            <Button x:Name="H9_Player_Button" Content="H9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,280,0,0" Grid.Column="2"/>
+            <Button x:Name="H10_Player_Button" Content="H10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,280,0,0" Grid.Column="2"/>
 
-            <Button Content="I1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,320,0,0" Grid.ColumnSpan="2"/>
-            <Button Content="I2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,320,0,0" Grid.Column="1"/>
-            <Button Content="I3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,320,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
-            <Button Content="I4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,320,0,0" Grid.Column="2"/>
-            <Button Content="I5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,320,0,0" Grid.Column="2"/>
-            <Button Content="I6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,320,0,0" Grid.Column="2"/>
-            <Button Content="I7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,320,0,0" Grid.Column="2"/>
-            <Button Content="I8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,320,0,0" Grid.Column="2"/>
-            <Button Content="I9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,320,0,0" Grid.Column="2"/>
-            <Button Content="I10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,320,0,0" Grid.Column="2"/>
+            <Button x:Name="I1_Player_Button" Content="I1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,320,0,0" Grid.ColumnSpan="2"/>
+            <Button x:Name="I2_Player_Button" Content="I2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,320,0,0" Grid.Column="1"/>
+            <Button x:Name="I3_Player_Button" Content="I3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,320,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="I4_Player_Button" Content="I4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,320,0,0" Grid.Column="2"/>
+            <Button x:Name="I5_Player_Button" Content="I5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,320,0,0" Grid.Column="2"/>
+            <Button x:Name="I6_Player_Button" Content="I6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,320,0,0" Grid.Column="2"/>
+            <Button x:Name="I7_Player_Button" Content="I7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,320,0,0" Grid.Column="2"/>
+            <Button x:Name="I8_Player_Button" Content="I8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,320,0,0" Grid.Column="2"/>
+            <Button x:Name="I9_Player_Button" Content="I9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,320,0,0" Grid.Column="2"/>
+            <Button x:Name="I10_Player_Button" Content="I10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,320,0,0" Grid.Column="2"/>
 
-            <Button Content="J1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,360,0,0" Grid.ColumnSpan="2"/>
-            <Button Content="J2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,360,0,0" Grid.Column="1"/>
-            <Button Content="J3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,360,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
-            <Button Content="J4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,360,0,0" Grid.Column="2"/>
-            <Button Content="J5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,360,0,0" Grid.Column="2"/>
-            <Button Content="J6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,360,0,0" Grid.Column="2"/>
-            <Button Content="J7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,360,0,0" Grid.Column="2"/>
-            <Button Content="J8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,360,0,0" Grid.Column="2"/>
-            <Button Content="J9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,360,0,0" Grid.Column="2"/>
-            <Button Content="J10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,360,0,0" Grid.Column="2"/>
+            <Button x:Name="J1_Player_Button" Content="J1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,360,0,0" Grid.ColumnSpan="2"/>
+            <Button x:Name="J2_Player_Button" Content="J2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,360,0,0" Grid.Column="1"/>
+            <Button x:Name="J3_Player_Button" Content="J3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,360,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="J4_Player_Button" Content="J4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,360,0,0" Grid.Column="2"/>
+            <Button x:Name="J5_Player_Button" Content="J5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,360,0,0" Grid.Column="2"/>
+            <Button x:Name="J6_Player_Button" Content="J6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,360,0,0" Grid.Column="2"/>
+            <Button x:Name="J7_Player_Button" Content="J7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,360,0,0" Grid.Column="2"/>
+            <Button x:Name="J8_Player_Button" Content="J8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,360,0,0" Grid.Column="2"/>
+            <Button x:Name="J9_Player_Button" Content="J9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,360,0,0" Grid.Column="2"/>
+            <Button x:Name="J10_Player_Button" Content="J10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,360,0,0" Grid.Column="2"/>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="400" Grid.Column="1" Margin="196,76,0,0">
 
-            <Button Content="A1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click"/>
-            <Button Content="A2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="40,0,0,0"/>
-            <Button Content="A3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="80,0,0,0"/>
-            <Button Content="A4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="120,0,0,0"/>
-            <Button Content="A5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="160,0,0,0"/>
-            <Button Content="A6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="200,0,0,0"/>
-            <Button Content="A7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="240,0,0,0"/>
-            <Button Content="A8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="280,0,0,0"/>
-            <Button Content="A9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="320,0,0,0"/>
-            <Button Content="A10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="360,0,0,0"/>
+            <Button x:Name="A1_Computer_Button" Content="A1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Grid.ColumnSpan="2"/>
+            <Button x:Name="A2_Computer_Button" Content="A2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,0,0,0" Grid.Column="1"/>
+            <Button x:Name="A3_Computer_Button" Content="A3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="40" Click="Button_Click" Margin="50,0,0,360" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="A4_Computer_Button" Content="A4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,0,0,0" Grid.Column="2"/>
+            <Button x:Name="A5_Computer_Button" Content="A5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,0,0,0" Grid.Column="2"/>
+            <Button x:Name="A6_Computer_Button" Content="A6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,0,0,0" Grid.Column="2"/>
+            <Button x:Name="A7_Computer_Button" Content="A7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,0,0,0" Grid.Column="2"/>
+            <Button x:Name="A8_Computer_Button" Content="A8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,0,0,0" Grid.Column="2"/>
+            <Button x:Name="A9_Computer_Button" Content="A9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,0,0,0" Grid.Column="2"/>
+            <Button x:Name="A10_Computer_Button" Content="A10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,0,0,0" Grid.Column="2"/>
 
-            <Button Content="B1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,40,0,0"/>
-            <Button Content="B2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="40,40,0,0"/>
-            <Button Content="B3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="80,40,0,0"/>
-            <Button Content="B4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="120,40,0,0"/>
-            <Button Content="B5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="160,40,0,0"/>
-            <Button Content="B6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="200,40,0,0"/>
-            <Button Content="B7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="240,40,0,0"/>
-            <Button Content="B8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="280,40,0,0"/>
-            <Button Content="B9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="320,40,0,0"/>
-            <Button Content="B10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="360,40,0,0"/>
+            <Button x:Name="B1_Computer_Button" Content="B1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,40,0,0" Grid.ColumnSpan="2"/>
+            <Button x:Name="B2_Computer_Button" Content="B2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,40,0,0" Grid.Column="1"/>
+            <Button x:Name="B3_Computer_Button" Content="B3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,40,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="B4_Computer_Button" Content="B4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,40,0,0" Grid.Column="2"/>
+            <Button x:Name="B5_Computer_Button" Content="B5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,40,0,0" Grid.Column="2"/>
+            <Button x:Name="B6_Computer_Button" Content="B6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,40,0,0" Grid.Column="2"/>
+            <Button x:Name="B7_Computer_Button" Content="B7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,40,0,0" Grid.Column="2"/>
+            <Button x:Name="B8_Computer_Button" Content="B8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,40,0,0" Grid.Column="2"/>
+            <Button x:Name="B9_Computer_Button" Content="B9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,40,0,0" Grid.Column="2"/>
+            <Button x:Name="B10_Computer_Button" Content="B10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,40,0,0" Grid.Column="2"/>
 
-            <Button Content="C1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,80,0,0"/>
-            <Button Content="C2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="40,80,0,0"/>
-            <Button Content="C3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="80,80,0,0"/>
-            <Button Content="C4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="120,80,0,0"/>
-            <Button Content="C5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="160,80,0,0"/>
-            <Button Content="C6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="200,80,0,0"/>
-            <Button Content="C7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="240,80,0,0"/>
-            <Button Content="C8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="280,80,0,0"/>
-            <Button Content="C9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="320,80,0,0"/>
-            <Button Content="C10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="360,80,0,0"/>
+            <Button x:Name="C1_Computer_Button" Content="C1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,80,0,0" Grid.ColumnSpan="2"/>
+            <Button x:Name="C2_Computer_Button" Content="C2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,80,0,0" Grid.Column="1"/>
+            <Button x:Name="C3_Computer_Button" Content="C3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,80,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="C4_Computer_Button" Content="C4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,80,0,0" Grid.Column="2"/>
+            <Button x:Name="C5_Computer_Button" Content="C5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,80,0,0" Grid.Column="2"/>
+            <Button x:Name="C6_Computer_Button" Content="C6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,80,0,0" Grid.Column="2"/>
+            <Button x:Name="C7_Computer_Button" Content="C7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,80,0,0" Grid.Column="2"/>
+            <Button x:Name="C8_Computer_Button" Content="C8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,80,0,0" Grid.Column="2"/>
+            <Button x:Name="C9_Computer_Button" Content="C9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,80,0,0" Grid.Column="2"/>
+            <Button x:Name="C10_Computer_Button" Content="C10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,80,0,0" Grid.Column="2"/>
 
-            <Button Content="D1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,120,0,0"/>
-            <Button Content="D2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="40,120,0,0"/>
-            <Button Content="D3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="80,120,0,0"/>
-            <Button Content="D4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="120,120,0,0"/>
-            <Button Content="D5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="160,120,0,0"/>
-            <Button Content="D6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="200,120,0,0"/>
-            <Button Content="D7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="240,120,0,0"/>
-            <Button Content="D8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="280,120,0,0"/>
-            <Button Content="D9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="320,120,0,0"/>
-            <Button Content="D10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="360,120,0,0"/>
+            <Button x:Name="D1_Computer_Button" Content="D1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,120,0,0" Grid.ColumnSpan="2"/>
+            <Button x:Name="D2_Computer_Button" Content="D2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,120,0,0" Grid.Column="1"/>
+            <Button x:Name="D3_Computer_Button" Content="D3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,120,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="D4_Computer_Button" Content="D4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,120,0,0" Grid.Column="2"/>
+            <Button x:Name="D5_Computer_Button" Content="D5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,120,0,0" Grid.Column="2"/>
+            <Button x:Name="D6_Computer_Button" Content="D6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,120,0,0" Grid.Column="2"/>
+            <Button x:Name="D7_Computer_Button" Content="D7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,120,0,0" Grid.Column="2"/>
+            <Button x:Name="D8_Computer_Button" Content="D8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,120,0,0" Grid.Column="2"/>
+            <Button x:Name="D9_Computer_Button" Content="D9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,120,0,0" Grid.Column="2"/>
+            <Button x:Name="D0_Computer_Button" Content="D10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,120,0,0" Grid.Column="2"/>
 
-            <Button Content="E1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,160,0,0"/>
-            <Button Content="E2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="40,160,0,0"/>
-            <Button Content="E3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="80,160,0,0"/>
-            <Button Content="E4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="120,160,0,0"/>
-            <Button Content="E5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="160,160,0,0"/>
-            <Button Content="E6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="200,160,0,0"/>
-            <Button Content="E7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="240,160,0,0"/>
-            <Button Content="E8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="280,160,0,0"/>
-            <Button Content="E9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="320,160,0,0"/>
-            <Button Content="E10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="360,160,0,0"/>
+            <Button x:Name="E1_Computer_Button" Content="E1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,160,0,0" Grid.ColumnSpan="2"/>
+            <Button x:Name="E2_Computer_Button" Content="E2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,160,0,0" Grid.Column="1"/>
+            <Button x:Name="E3_Computer_Button" Content="E3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,160,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="E4_Computer_Button" Content="E4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,160,0,0" Grid.Column="2"/>
+            <Button x:Name="E5_Computer_Button" Content="E5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,160,0,0" Grid.Column="2"/>
+            <Button x:Name="E6_Computer_Button" Content="E6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,160,0,0" Grid.Column="2"/>
+            <Button x:Name="E7_Computer_Button" Content="E7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,160,0,0" Grid.Column="2"/>
+            <Button x:Name="E8_Computer_Button" Content="E8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,160,0,0" Grid.Column="2"/>
+            <Button x:Name="E9_Computer_Button" Content="E9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,160,0,0" Grid.Column="2"/>
+            <Button x:Name="E10_Computer_Button" Content="E10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,160,0,0" Grid.Column="2"/>
 
-            <Button Content="F1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,200,0,0"/>
-            <Button Content="F2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="40,200,0,0"/>
-            <Button Content="F3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="80,200,0,0"/>
-            <Button Content="F4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="120,200,0,0"/>
-            <Button Content="F5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="160,200,0,0"/>
-            <Button Content="F6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="200,200,0,0"/>
-            <Button Content="F7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="240,200,0,0"/>
-            <Button Content="F8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="280,200,0,0"/>
-            <Button Content="F9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="320,200,0,0"/>
-            <Button Content="F10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="360,200,0,0"/>
+            <Button x:Name="F1_Computer_Button" Content="F1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,200,0,0" Grid.ColumnSpan="2"/>
+            <Button x:Name="F2_Computer_Button" Content="F2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,200,0,0" Grid.Column="1"/>
+            <Button x:Name="F3_Computer_Button" Content="F3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,200,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="F4_Computer_Button" Content="F4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,200,0,0" Grid.Column="2"/>
+            <Button x:Name="F5_Computer_Button" Content="F5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,200,0,0" Grid.Column="2"/>
+            <Button x:Name="F6_Computer_Button" Content="F6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,200,0,0" Grid.Column="2"/>
+            <Button x:Name="F7_Computer_Button" Content="F7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,200,0,0" Grid.Column="2"/>
+            <Button x:Name="F8_Computer_Button" Content="F8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,200,0,0" Grid.Column="2"/>
+            <Button x:Name="F9_Computer_Button" Content="F9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,200,0,0" Grid.Column="2"/>
+            <Button x:Name="F10_Computer_Button" Content="F10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,200,0,0" Grid.Column="2"/>
 
-            <Button Content="G1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,240,0,0"/>
-            <Button Content="G2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="40,240,0,0"/>
-            <Button Content="G3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="80,240,0,0"/>
-            <Button Content="G4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="120,240,0,0"/>
-            <Button Content="G5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="160,240,0,0"/>
-            <Button Content="G6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="200,240,0,0"/>
-            <Button Content="G7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="240,240,0,0"/>
-            <Button Content="G8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="280,240,0,0"/>
-            <Button Content="G9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="320,240,0,0"/>
-            <Button Content="G10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="360,240,0,0"/>
+            <Button x:Name="G1_Computer_Button" Content="G1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,240,0,0" Grid.ColumnSpan="2"/>
+            <Button x:Name="G2_Computer_Button" Content="G2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,240,0,0" Grid.Column="1"/>
+            <Button x:Name="G3_Computer_Button" Content="G3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,240,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="G4_Computer_Button" Content="G4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,240,0,0" Grid.Column="2"/>
+            <Button x:Name="G5_Computer_Button" Content="G5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,240,0,0" Grid.Column="2"/>
+            <Button x:Name="G6_Computer_Button" Content="G6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,240,0,0" Grid.Column="2"/>
+            <Button x:Name="G7_Computer_Button" Content="G7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,240,0,0" Grid.Column="2"/>
+            <Button x:Name="G8_Computer_Button" Content="G8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,240,0,0" Grid.Column="2"/>
+            <Button x:Name="G9_Computer_Button" Content="G9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,240,0,0" Grid.Column="2"/>
+            <Button x:Name="G10_Computer_Button" Content="G10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,240,0,0" Grid.Column="2"/>
 
-            <Button Content="H1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,280,0,0"/>
-            <Button Content="H2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="40,280,0,0"/>
-            <Button Content="H3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="80,280,0,0"/>
-            <Button Content="H4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="120,280,0,0"/>
-            <Button Content="H5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="160,280,0,0"/>
-            <Button Content="H6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="200,280,0,0"/>
-            <Button Content="H7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="240,280,0,0"/>
-            <Button Content="H8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="280,280,0,0"/>
-            <Button Content="H9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="320,280,0,0"/>
-            <Button Content="H10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="360,280,0,0"/>
+            <Button x:Name="H1_Computer_Button" Content="H1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,280,0,0" Grid.ColumnSpan="2"/>
+            <Button x:Name="H2_Computer_Button" Content="H2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,280,0,0" Grid.Column="1"/>
+            <Button x:Name="H3_Computer_Button" Content="H3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,280,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="H4_Computer_Button" Content="H4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,280,0,0" Grid.Column="2"/>
+            <Button x:Name="H5_Computer_Button" Content="H5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,280,0,0" Grid.Column="2"/>
+            <Button x:Name="H6_Computer_Button" Content="H6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,280,0,0" Grid.Column="2"/>
+            <Button x:Name="H7_Computer_Button" Content="H7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,280,0,0" Grid.Column="2"/>
+            <Button x:Name="H8_Computer_Button" Content="H8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,280,0,0" Grid.Column="2"/>
+            <Button x:Name="H9_Computer_Button" Content="H9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,280,0,0" Grid.Column="2"/>
+            <Button x:Name="H10_Computer_Button" Content="H10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,280,0,0" Grid.Column="2"/>
 
-            <Button Content="I1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,320,0,0"/>
-            <Button Content="I2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="40,320,0,0"/>
-            <Button Content="I3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="80,320,0,0"/>
-            <Button Content="I4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="120,320,0,0"/>
-            <Button Content="I5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="160,320,0,0"/>
-            <Button Content="I6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="200,320,0,0"/>
-            <Button Content="I7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="240,320,0,0"/>
-            <Button Content="I8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="280,320,0,0"/>
-            <Button Content="I9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="320,320,0,0"/>
-            <Button Content="I10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="360,320,0,0"/>
+            <Button x:Name="I1_Computer_Button" Content="I1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,320,0,0" Grid.ColumnSpan="2"/>
+            <Button x:Name="I2_Computer_Button" Content="I2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,320,0,0" Grid.Column="1"/>
+            <Button x:Name="I3_Computer_Button" Content="I3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,320,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="I4_Computer_Button" Content="I4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,320,0,0" Grid.Column="2"/>
+            <Button x:Name="I5_Computer_Button" Content="I5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,320,0,0" Grid.Column="2"/>
+            <Button x:Name="I6_Computer_Button" Content="I6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,320,0,0" Grid.Column="2"/>
+            <Button x:Name="I7_Computer_Button" Content="I7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,320,0,0" Grid.Column="2"/>
+            <Button x:Name="I8_Computer_Button" Content="I8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,320,0,0" Grid.Column="2"/>
+            <Button x:Name="I9_Computer_Button" Content="I9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,320,0,0" Grid.Column="2"/>
+            <Button x:Name="I10_Computer_Button" Content="I10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,320,0,0" Grid.Column="2"/>
 
-            <Button Content="J1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,360,0,0"/>
-            <Button Content="J2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="40,360,0,0"/>
-            <Button Content="J3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="80,360,0,0"/>
-            <Button Content="J4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="120,360,0,0"/>
-            <Button Content="J5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="160,360,0,0"/>
-            <Button Content="J6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="200,360,0,0"/>
-            <Button Content="J7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="240,360,0,0"/>
-            <Button Content="J8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="280,360,0,0"/>
-            <Button Content="J9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="320,360,0,0"/>
-            <Button Content="J10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="360,360,0,0"/>
+            <Button x:Name="J1_Computer_Button" Content="J1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,360,0,0" Grid.ColumnSpan="2"/>
+            <Button x:Name="J2_Computer_Button" Content="J2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="10,360,0,0" Grid.Column="1"/>
+            <Button x:Name="J3_Computer_Button" Content="J3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="50,360,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <Button x:Name="J4_Computer_Button" Content="J4" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="25,360,0,0" Grid.Column="2"/>
+            <Button x:Name="J5_Computer_Button" Content="J5" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="65,360,0,0" Grid.Column="2"/>
+            <Button x:Name="J6_Computer_Button" Content="J6" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="105,360,0,0" Grid.Column="2"/>
+            <Button x:Name="J7_Computer_Button" Content="J7" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="145,360,0,0" Grid.Column="2"/>
+            <Button x:Name="J8_Computer_Button" Content="J8" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="185,360,0,0" Grid.Column="2"/>
+            <Button x:Name="J9_Computer_Button" Content="J9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="225,360,0,0" Grid.Column="2"/>
+            <Button x:Name="J10_Computer_Button" Content="J10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="265,360,0,0" Grid.Column="2"/>
         </Grid>
     </Grid>
 </Window>
