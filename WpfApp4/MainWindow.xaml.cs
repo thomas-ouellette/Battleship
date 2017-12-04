@@ -25,4 +25,13 @@ namespace WpfApp4
             InitializeComponent();
         }
     }
+    public class leaderboard
+    {
+        
+    }
+    
+    public class level
+    {
+
+    }
 }
