@@ -242,5 +242,6 @@
                 <Button x:Name="J10_Computer_Button" Content="J10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="360,360,0,0" Grid.Column="2"/>
             </Grid>
         </Grid>
+        <Label Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,2,0,0"/>
     </Grid>
 </Window>
