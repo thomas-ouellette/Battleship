@@ -15,8 +15,7 @@ public class AIlevel
     public AIlevel()
     {
         level = 1;
-
-
+        
     }
     public AIlevel(int lvl)
     {
