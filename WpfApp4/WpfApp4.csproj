@@ -36,6 +36,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -57,6 +58,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
     <Compile Include="WindowBattleShip.xaml.cs">
       <DependentUpon>WindowBattleShip.xaml</DependentUpon>
     </Compile>
@@ -95,6 +101,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -106,6 +116,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="wavesGIF.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="5.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

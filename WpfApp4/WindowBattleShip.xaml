@@ -239,7 +239,7 @@
             </Grid>
             <GroupBox Header="Ships" HorizontalAlignment="Left" Height="186" Margin="120,502,0,0" VerticalAlignment="Top" Width="400" FontSize="20" BorderBrush="#FF0E1113" BorderThickness="3">
                 <StackPanel Margin="0,0,0,-1">
-                    <Image x:Name="Boat2" Height="24" Width="58" HorizontalAlignment="Left" Margin="5,5,0,5"  MouseLeftButtonUp="Boat2_MouseLeftButtonUp" Source="2.png"/>
+                    <Image x:Name="Boat2" Height="24" Width="58" HorizontalAlignment="Left" Margin="5,5,0,5" Source="2.png"/>
                     <Image Height="24" Width="92" Margin="5,0,0,5" HorizontalAlignment="Left" Cursor="Hand" Source="31.png"/>
                     <Image Height="24" Width="92" Margin="5,0,0,5" HorizontalAlignment="Left" Source="32.png" Cursor="Hand"/>
                     <Image Height="24" Width="126" Margin="5,0,0,5" HorizontalAlignment="Left" Source="4.png" Cursor="Hand"/>
