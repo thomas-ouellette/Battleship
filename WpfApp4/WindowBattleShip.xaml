@@ -10,11 +10,10 @@
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="245*"/>
-                <ColumnDefinition Width="272*"/>
+                <ColumnDefinition Width="245*"/>
             </Grid.ColumnDefinitions>
-            <Grid HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="400" Grid.Column="0" Margin="196,76,0,0">
-                <Grid.ColumnDefinitions>
-                </Grid.ColumnDefinitions>
+            <Grid Name="PlayerGrid" HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="400" Grid.Column="0" Margin="196,76,0,0">
+
                 <Button x:Name="A1_Player_Button" Content="A1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="0,0,0,0" Grid.ColumnSpan="2"/>
                 <Button x:Name="A2_Player_Button" Content="A2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="40,0,0,0" Grid.Column="1"/>
                 <Button x:Name="A3_Player_Button" Content="A3" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="80,0,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
@@ -125,7 +124,7 @@
                 <Button x:Name="J9_Player_Button" Content="J9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="320,360,0,0" Grid.Column="2"/>
                 <Button x:Name="J10_Player_Button" Content="J10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="360,360,0,0" Grid.Column="2"/>
             </Grid>
-            <Grid HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="400" Grid.Column="1" Margin="196,76,0,0">
+            <Grid HorizontalAlignment="Right" Height="400" VerticalAlignment="Top" Width="400" Grid.Column="1" Margin="0,76,196,0">
 
                 <Button x:Name="A1_Computer_Button" Content="A1" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Grid.ColumnSpan="2"/>
                 <Button x:Name="A2_Computer_Button" Content="A2" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="40,0,0,0" Grid.Column="1"/>
@@ -238,7 +237,7 @@
                 <Button x:Name="J10_Computer_Button" Content="J10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="360,360,0,0" Grid.Column="2"/>
             </Grid>
             <GroupBox Header="Ships" HorizontalAlignment="Left" Height="186" Margin="120,502,0,0" VerticalAlignment="Top" Width="400" FontSize="20" BorderBrush="#FF0E1113" BorderThickness="3">
-                <StackPanel Margin="0,0,0,-1">
+                <StackPanel Margin="0,0,21,-1">
                     <Image x:Name="Boat2" Height="24" Width="58" HorizontalAlignment="Left" Margin="5,5,0,5" Source="2.png"/>
                     <Image Height="24" Width="92" Margin="5,0,0,5" HorizontalAlignment="Left" Cursor="Hand" Source="31.png"/>
                     <Image Height="24" Width="92" Margin="5,0,0,5" HorizontalAlignment="Left" Source="32.png" Cursor="Hand"/>
@@ -247,7 +246,9 @@
 
                 </StackPanel>
             </GroupBox>
+            <Label HorizontalAlignment="Left" Margin="196,29,0,0" VerticalAlignment="Top" FontSize="20" HorizontalContentAlignment="Left">
+                <Label Content="Player Grid" Width="224"/>
+            </Label>
         </Grid>
-        <Label Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,2,0,0"/>
     </Grid>
 </Window>

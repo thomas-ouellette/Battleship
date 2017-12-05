@@ -25,6 +25,8 @@ namespace WpfApp4
         Ship[] playerShips = new Ship[5];
         Ship[] enemyShips = new Ship[5];
 
+        Point p;
+
         // string saves = ".//saves//";
 
         public WindowBattleShip()
@@ -38,9 +40,10 @@ namespace WpfApp4
 
             MessageBox.Show(newship.ShipType);*/
         }
-
+        
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            MessageBox.Show(sender.ToString().Substring(sender.ToString().LastIndexOf(" ")));
 
         }
 
@@ -61,5 +64,6 @@ namespace WpfApp4
 
             return o;
         }
+
     }
 }
