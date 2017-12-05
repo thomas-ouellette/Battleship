@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
 using System.IO;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -22,13 +23,6 @@ namespace WpfApp4
     public partial class WindowBattleShip : Window
     {
 
-        Ship[] playerShips = new Ship[5];
-        Ship[] enemyShips = new Ship[5];
-
-        Point p;
-
-        // string saves = ".//saves//";
-
         public WindowBattleShip()
         {
             InitializeComponent();
@@ -40,6 +34,46 @@ namespace WpfApp4
 
             MessageBox.Show(newship.ShipType);*/
         }
+
+        
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void LeadB_Click(object sender, RoutedEventArgs e)
+        {
+            LeaderBoard stats = new LeaderBoard();
+            stats.Show();
+            
+        }
+
+        private void RadEa_Checked(object sender, RoutedEventArgs e)
+        {
+            AIlevel Easy = new AIlevel(1);
+            Easy.AIAction();
+        }
+
+        private void RadMed_Checked(object sender, RoutedEventArgs e)
+        {
+            AIlevel Medium = new AIlevel(2);
+            Medium.AIAction();
+        }
+
+        private void RadHard_Checked(object sender, RoutedEventArgs e)
+        {
+            AIlevel Hard = new AIlevel(3);
+            Hard.AIAction();
+        }
+
+        Ship[] playerShips = new Ship[5];
+        Ship[] enemyShips = new Ship[5];
+
+        Point p;
+
+        // string saves = ".//saves//";
+
+        
         
         private void Button_Click(object sender, RoutedEventArgs e)
         {

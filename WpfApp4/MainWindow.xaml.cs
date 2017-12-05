@@ -24,7 +24,6 @@ namespace WpfApp4
         {
             InitializeComponent();
         }
-
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
             WindowBattleShip winBS = new WindowBattleShip();
