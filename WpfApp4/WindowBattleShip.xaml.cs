@@ -19,6 +19,10 @@ namespace WpfApp4
     /// </summary>
     public partial class WindowBattleShip : Window
     {
+
+        Ship[] playerShips = new Ship[5];
+        Ship[] enemyShips = new Ship[5];
+
         public WindowBattleShip()
         {
             InitializeComponent();
