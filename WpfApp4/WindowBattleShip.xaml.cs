@@ -27,7 +27,7 @@ namespace WpfApp4
         public class AIlevel
         {
             private int level;
-            private int board_size;
+            
             public Random num_gen = new Random();
             private String[,] BOARD = { { "A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10" }, { "B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10" },
             { "C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9", "C10" },{ "D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D9", "D10" },{ "E1", "E2", "E3", "E4", "E5", "E6", "E7", "E8", "E9", "E10" },
@@ -39,7 +39,7 @@ namespace WpfApp4
             public AIlevel()
             {
                 level = 1;
-                board_size = 100;
+                
                 
             }
             public AIlevel(int lvl)
@@ -49,7 +49,7 @@ namespace WpfApp4
                     throw new InvalidOperationException("Level entered does not meet requirments. Enter a level between 1 and 3");
                 }
                 level = lvl;
-                board_size = 100;
+               
             }
             public String[,] getBoardCord()
             {
