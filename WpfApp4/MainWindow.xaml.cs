@@ -25,8 +25,6 @@ namespace WpfApp4
             InitializeComponent();
         }
 
-      
-
         public class AIlevel
         {
             private int level;
