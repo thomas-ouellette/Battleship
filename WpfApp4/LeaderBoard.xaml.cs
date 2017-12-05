@@ -24,17 +24,18 @@ namespace WpfApp4
             InitializeComponent();
         }
        
-        public class leaderboard
+        public class Leaderboard
         {
             String playerName;
             int Score;
 
-            public leaderboard()
+            public Leaderboard()
             {
                 playerName = "";
                 Score = 0;
             }
-            public leaderboard(String name, int ScoreNum)
+            
+            public Leaderboard(String name, int ScoreNum)
             {
                 playerName = name;
                 Score = ScoreNum;
