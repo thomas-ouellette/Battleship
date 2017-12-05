@@ -28,5 +28,12 @@ namespace WpfApp4
         {
 
         }
+
+        private void LeadB_Click(object sender, RoutedEventArgs e)
+        {
+            LeaderBoard stats = new LeaderBoard();
+            stats.Show();
+            
+        }
     }
 }

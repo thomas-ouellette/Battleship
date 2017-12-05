@@ -241,6 +241,7 @@
                 <Button x:Name="J9_Computer_Button" Content="J9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="320,360,0,0" Grid.Column="2"/>
                 <Button x:Name="J10_Computer_Button" Content="J10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="360,360,0,0" Grid.Column="2"/>
             </Grid>
+            <Button x:Name="LeadB" Content="Leader Board" Grid.Column="1" HorizontalAlignment="Left" Margin="333,535,0,0" VerticalAlignment="Top" Width="75" Click="LeadB_Click"/>
         </Grid>
         <Label Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,2,0,0"/>
     </Grid>
