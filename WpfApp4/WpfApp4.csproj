@@ -57,6 +57,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AILevel.cs" />
     <Compile Include="LeaderBoard.xaml.cs">
       <DependentUpon>LeaderBoard.xaml</DependentUpon>
     </Compile>
