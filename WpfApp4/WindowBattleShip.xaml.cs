@@ -47,20 +47,20 @@ namespace WpfApp4
 
         private void RadEa_Checked(object sender, RoutedEventArgs e)
         {
-            AIlevel Easy = new AIlevel(1);
-            Easy.AIAction();
+            AI Easy = new AI(1);
+            Easy.AIPlacement();
         }
 
         private void RadMed_Checked(object sender, RoutedEventArgs e)
         {
-            AIlevel Medium = new AIlevel(2);
-            Medium.AIAction();
+            AI Medium = new AI(2);
+            Medium.AIPlacement();
         }
 
         private void RadHard_Checked(object sender, RoutedEventArgs e)
         {
-            AIlevel Hard = new AIlevel(3);
-            Hard.AIAction();
+            AI Hard = new AI(3);
+            Hard.AIPlacement();
         }
 
         Ship[] playerShips = new Ship[5];
