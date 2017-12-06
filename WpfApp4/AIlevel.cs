@@ -47,7 +47,7 @@ public class AI
         Ship Cruiser = new Ship("Cruiser", 3, directionAI);
         Ship Submarine = new Ship("Submarine", 3, directionAI);
         Ship Destroyer = new Ship("Destroyer", 2, directionAI);
-       MessageBox.Show((BOARD[rnd.Next(0, 10), rnd.Next(0, 10)]));
+       //MessageBox.Show((BOARD[rnd.Next(0, 10), rnd.Next(0, 10)]));
 
     }
     public int AI_Attack()

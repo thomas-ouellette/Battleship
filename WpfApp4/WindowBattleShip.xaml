@@ -7,7 +7,7 @@
         mc:Ignorable="d"
          Title="Battleship v1" Height="749.5" Width="1342.5">
     <Grid>
-        <Grid>
+        <Grid AllowDrop="True">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="245*"/>
                 <ColumnDefinition Width="245*"/>
@@ -236,10 +236,10 @@
                 <Button x:Name="J9_Computer_Button" Content="J9" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="320,360,0,0" Grid.Column="2"/>
                 <Button x:Name="J10_Computer_Button" Content="J10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="360,360,0,0" Grid.Column="2"/>
             </Grid>
-            <Button x:Name="LeadB" Content="Leader Board" Grid.Column="1" HorizontalAlignment="Left" Margin="362,541,0,0" VerticalAlignment="Top" Width="170" Click="LeadB_Click" FontFamily="Comic Sans MS" FontSize="20"/>
-            <StackPanel HorizontalAlignment="Left" Height="142" Margin="52,523,0,0" VerticalAlignment="Top" Width="154" Grid.Column="1">
+            <Button x:Name="LeadB" Content="Leader Board" Grid.Column="1" HorizontalAlignment="Left" Margin="197,544,0,0" VerticalAlignment="Top" Width="153" Click="LeadB_Click" FontFamily="Comic Sans MS" FontSize="20"/>
+            <StackPanel HorizontalAlignment="Left" Height="142" Margin="24,150,0,0" VerticalAlignment="Top" Width="154">
                 <Label Content="Difficulty" FontSize="16" FontFamily="Comic Sans MS"/>
-                <RadioButton x:Name="RadEa" Content="Easy" Checked="RadEa_Checked" IsChecked="True" FontFamily="Comic Sans MS" FontSize="16"/>
+                <RadioButton x:Name="RadEa" Content="Easy" Checked="RadEa_Checked" FontFamily="Comic Sans MS" FontSize="16"/>
                 <RadioButton x:Name="RadMed" Content="Medium" Checked="RadMed_Checked" FontFamily="Comic Sans MS" FontSize="16"/>
                 <RadioButton x:Name="RadHard" Content="Hard" Checked="RadHard_Checked" FontFamily="Comic Sans MS" FontSize="16"/>
             </StackPanel>
@@ -256,6 +256,15 @@
             <Label HorizontalAlignment="Left" Margin="196,29,0,0" VerticalAlignment="Top" FontSize="20" HorizontalContentAlignment="Left">
                 <Label Content="Player Grid" Width="224"/>
             </Label>
+            <Button x:Name="StartBut" Content="Start" HorizontalAlignment="Left" Margin="55,108,0,0" VerticalAlignment="Top" Width="74" Click="StartBut_Click" FontSize="20"/>
+            <Label Content="Enemy Grid" Grid.Column="1" HorizontalAlignment="Left" Margin="71,36,0,0" VerticalAlignment="Top" Width="135" FontSize="20"/>
+            <Label Content="Lives:" Grid.Column="1" HorizontalAlignment="Left" Margin="527,150,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <Label Content="Hits:" Grid.Column="1" HorizontalAlignment="Left" Margin="527,198,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="589,155,0,0" TextWrapping="Wrap" Text="17" VerticalAlignment="Top" FontSize="20"/>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="587,203,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="20"/>
+            <Label Content="Score" Grid.Column="1" HorizontalAlignment="Left" Margin="527,265,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="543,307,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="30" Width="55" FontSize="20"/>
+            <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" HorizontalAlignment="Left" Height="70" Margin="509,267,0,0" VerticalAlignment="Top" Width="102"/>
         </Grid>
     </Grid>
 </Window>
