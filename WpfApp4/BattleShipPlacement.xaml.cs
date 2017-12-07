@@ -26,20 +26,6 @@ namespace WpfApp4
             ButtonGeneratorV2(10,10);
         }
 
-        private void ButtonGenerator()
-        {
-            List<Button> buttons = new List<Button>();
-            for (int i = 0; i < 10; i++)
-            {
-                for (int j = 0; j < 10; j++)
-                {
-                    Button b = new Button();
-                    buttons.Add(b);
-                    
-                }
-            }
-        }
-
         private void ShipPlacementNextButton_Click(object sender, RoutedEventArgs e)
         {
             //TODO if the ships are not all places display an error message saying that 
