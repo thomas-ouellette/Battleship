@@ -59,6 +59,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="AILevel.cs" />
+    <Compile Include="BattleShipPlacement.xaml.cs">
+      <DependentUpon>BattleShipPlacement.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LeaderBoard.xaml.cs">
       <DependentUpon>LeaderBoard.xaml</DependentUpon>
     </Compile>
@@ -72,6 +75,10 @@
     <Compile Include="WindowBattleShip.xaml.cs">
       <DependentUpon>WindowBattleShip.xaml</DependentUpon>
     </Compile>
+    <Page Include="BattleShipPlacement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
