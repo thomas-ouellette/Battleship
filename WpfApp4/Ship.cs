@@ -23,9 +23,6 @@
             this.healthPoints = healthPoints;
             this.isSunk = false;
             this.type = type;
-            
-
-
         }
 
         public void hit()

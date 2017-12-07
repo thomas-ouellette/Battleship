@@ -81,13 +81,34 @@ namespace WpfApp4
         // string saves = ".//saves//";
 
         
-        
+        // EVENT HANDLERS
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show(sender.ToString().Substring(sender.ToString().LastIndexOf(" ")));
 
         }
 
+        private void StartBut_Click(object sender, RoutedEventArgs e)
+        {
+            if (RadHard.IsEnabled == false || RadEa.IsEnabled == false || RadMed.IsEnabled == false)
+            {
+                MessageBox.Show("Let the Battle Begin!");
+            }
+            else
+            {
+                MessageBox.Show("Please choose a difficulty to begin.");
+            }
+        }
+
+
+
+
+
+
+
+
+
+        // UTILITY METHODS
         public static void Serialize(Object o, string filespec)
         {
             IFormatter f = new BinaryFormatter();
@@ -106,16 +127,15 @@ namespace WpfApp4
             return o;
         }
 
-        private void StartBut_Click(object sender, RoutedEventArgs e)
+        private void save()
         {
-            if(RadHard.IsEnabled == false || RadEa.IsEnabled == false || RadMed.IsEnabled == false)
-            {
-                MessageBox.Show("Let the Battle Begin!");
-            }
-            else
-            {
-                MessageBox.Show("Please choose a difficulty to begin.");
-            }
+            //Serialize();
         }
+
+        private void load()
+        {
+
+        }
+
     }
 }
