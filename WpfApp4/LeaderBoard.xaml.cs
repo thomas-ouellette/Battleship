@@ -26,8 +26,11 @@ namespace WpfApp4
        
         public class Leaderboard
         {
-            String playerName;
-            int Score;
+            private String playerName;
+            private int Score;
+            public String[] names;
+
+
 
             public Leaderboard()
             {
@@ -49,7 +52,25 @@ namespace WpfApp4
             {
                 return Score;
             }
+            public String setName(String str)
+            {
+                return this.playerName = str;
+            }
+
+            public int setScore(int scr)
+            {
+                return this.Score = scr;
+            }
            
+            public void UpdateLeader(String name, int score)
+            {
+                /*if(gameisOver = true)
+                {
+
+                }*/
+
+
+            }
         }
        
     }

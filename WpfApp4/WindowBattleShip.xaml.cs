@@ -35,36 +35,46 @@ namespace WpfApp4
             MessageBox.Show(newship.ShipType);*/
         }
 
-        
-      
+
+
 
         private void LeadB_Click(object sender, RoutedEventArgs e)
         {
             LeaderBoard stats = new LeaderBoard();
             stats.Show();
-            
+
         }
 
         private void RadEa_Checked(object sender, RoutedEventArgs e)
         {
-            AIlevel Easy = new AIlevel(1);
-            Easy.AIAction();
+            AI Easy = new AI(1);
+            Easy.AIPlacement();
+            RadEa.IsEnabled = false;
+            RadHard.IsEnabled = false;
+            RadMed.IsEnabled = false;
         }
 
         private void RadMed_Checked(object sender, RoutedEventArgs e)
         {
-            AIlevel Medium = new AIlevel(2);
-            Medium.AIAction();
+            AI Medium = new AI(2);
+            Medium.AIPlacement();
+            RadEa.IsEnabled = false;
+            RadHard.IsEnabled = false;
+            RadMed.IsEnabled = false;
         }
 
         private void RadHard_Checked(object sender, RoutedEventArgs e)
         {
-            AIlevel Hard = new AIlevel(3);
-            Hard.AIAction();
+            AI Hard = new AI(3);
+            Hard.AIPlacement();
+            RadEa.IsEnabled = false;
+            RadHard.IsEnabled = false;
+            RadMed.IsEnabled = false;
         }
 
         Ship[] playerShips = new Ship[5];
         Ship[] enemyShips = new Ship[5];
+
 
         Point p;
 
@@ -96,5 +106,16 @@ namespace WpfApp4
             return o;
         }
 
+        private void StartBut_Click(object sender, RoutedEventArgs e)
+        {
+            if(RadHard.IsEnabled == false || RadEa.IsEnabled == false || RadMed.IsEnabled == false)
+            {
+                MessageBox.Show("Let the Battle Begin!");
+            }
+            else
+            {
+                MessageBox.Show("Please choose a difficulty to begin.");
+            }
+        }
     }
 }

@@ -8,23 +8,22 @@
 
         private int healthPoints;
         // 1 = left, 2 = up, 3 = right, 4 = down
-        private int facing;
         private string type;
         private bool isSunk;
 
         // propreties
         public int Health { get { return healthPoints; } private set { } }
-        public int Direction { get { return facing; } private set { } }
+        
         public string ShipType { get { return type; } private set { } }
 
         public Ship() { }
 
-        public Ship(string type, int healthPoints, int direction)
+        public Ship(string type, int healthPoints)
         {
             this.healthPoints = healthPoints;
             this.isSunk = false;
             this.type = type;
-            this.facing = direction;
+            
 
 
         }
