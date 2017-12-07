@@ -26,8 +26,8 @@ namespace WpfApp4
         }
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
-            WindowBattleShip winBS = new WindowBattleShip();
-            winBS.Show();
+            BattleShipPlacement BSPWindow = new BattleShipPlacement();
+            BSPWindow.Show();
             this.Close();
         }
 
