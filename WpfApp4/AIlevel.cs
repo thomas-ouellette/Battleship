@@ -8,7 +8,7 @@ public class AI
     public Random rnd = new Random();
     public int directionAI;
     private String[,] BOARD = new String[10,10];
-   
+  
 
 
     public AI()
@@ -42,13 +42,18 @@ public class AI
     }
     public void AIPlacement()
     {
-        Ship Carrier = new Ship("Carrier", 5, directionAI);
-        Ship Battleship = new Ship("Battleship", 4, directionAI);
-        Ship Cruiser = new Ship("Cruiser", 3, directionAI);
-        Ship Submarine = new Ship("Submarine", 3, directionAI);
-        Ship Destroyer = new Ship("Destroyer", 2, directionAI);
-       //MessageBox.Show((BOARD[rnd.Next(0, 10), rnd.Next(0, 10)]));
+        Ship Carrier = new Ship("Carrier", 5);
+        Ship Battleship = new Ship("Battleship", 4);
+        Ship Cruiser = new Ship("Cruiser", 3);
+        Ship Submarine = new Ship("Submarine", 3);
+        Ship Destroyer = new Ship("Destroyer", 2);
 
+        int CarLength = Carrier.Health;
+        int BSLength = Battleship.Health;
+        int CruLength = Cruiser.Health;
+        int SubLength = Submarine.Health;
+        int DesLength = Destroyer.Health;
+        
     }
     public int AI_Attack()
     {
