@@ -19,11 +19,13 @@ namespace WpfApp4
     /// </summary>
     public partial class BattleShipPlacement : Window
     {
-        int x, y;
+        double mouseX, mouseY;
+        Image selected;
+        Ship[] ships = new Ship[5];
+        int counter = 0;
         public BattleShipPlacement()
         {
             InitializeComponent();
-            ButtonGeneratorV2(10,10);
         }
 
         private void ShipPlacementNextButton_Click(object sender, RoutedEventArgs e)
@@ -36,28 +38,65 @@ namespace WpfApp4
             this.Close();
         }
 
-        private void ButtonGeneratorV2(int col, int rows)
+        private void GridBattleShipPlacement_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            Grid newGrid = new Grid();
-            for (int i = 0; i < rows; i++)
-                newGrid.RowDefinitions.Add(new RowDefinition());
-            for (int i = 0; i < col; i++)
-                newGrid.ColumnDefinitions.Add(new ColumnDefinition());
-
-            for (x = 0; x < rows; x++)
+            if(selected != null)
             {
-                for (y = 0; y < col; y++)
-                {
-                    Button btn = new Button();
-                    btn.Height = 40;
-                    btn.Width = 40;
-                    Grid.SetColumn(btn, y);
-                    Grid.SetRow(btn, x);
-                    newGrid.Children.Add(btn);
-                }
-            }
 
-            GridBattleShipPlacement.Children.Add(newGrid);
+                mouseX = e.GetPosition(GridBattleShipPlacement).X;
+                mouseY = e.GetPosition(GridBattleShipPlacement).Y;
+                
+                Image i = new Image();
+                i.Width = selected.Width;
+                i.Height = selected.Height;
+                i.Source = selected.Source;
+                /*
+                Thickness margin = selected.Margin;
+                margin.Left = 700 + mouseX;
+                margin.Top = 100 + mouseY;
+                i.Margin = margin;
+                */
+                Grid.SetColumn(i, (int)(mouseX/40));
+                Grid.SetColumn(i, (int)(mouseX / 40));
+                Grid.SetRow(i, (int)(mouseY / 40));
+                GridBattleShipPlacement.Children.Add(i);
+
+                selected.Visibility = Visibility.Hidden;
+                selected = null;
+            }
+        }
+
+        private void Boat31_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            selected = Boat31;
+            
+        }
+
+        private void Boat32_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            selected = Boat32;
+        }
+
+        private void Boat4_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            selected = Boat4;
+        }
+
+        private void Boat5_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            selected = Boat5;
+        }
+
+        private void Boat2_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            selected = Boat2;
+        }
+
+        
+
+        private void Btn_Click(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }
