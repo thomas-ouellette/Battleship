@@ -13,7 +13,7 @@
         <Button x:Name="StartButton" Content="BATTLE" HorizontalAlignment="Left" Margin="571,144,0,0" VerticalAlignment="Top" Width="210" Height="96" FontSize="48" Background="#FF4689D8" BorderBrush="Black" Click="StartButton_Click"/>
         <Button x:Name="QuitButton" Content="QUIT" HorizontalAlignment="Left" Margin="599,349,0,0" VerticalAlignment="Top" Width="140" Height="72" FontSize="36" Background="#FF4689D8" BorderBrush="Black" Click="QuitButton_Click"/>
 
-        <StackPanel x:Name="StackPanelDifficulties" HorizontalAlignment="Left" Height="233" Margin="179,188,0,0" VerticalAlignment="Top" Width="164" Background="#FF4689D8">
+        <StackPanel x:Name="StackPanelDifficulties" HorizontalAlignment="Left" Height="233" Margin="257,196,0,0" VerticalAlignment="Top" Width="164" Background="#FF4689D8">
             <Label Content="Difficulty" FontSize="36"/>
             <RadioButton x:Name="RadEa" Content=" Easy" Checked="RadEa_Checked" FontSize="24"/>
             <RadioButton x:Name="RadMed" Content=" Medium" Checked="RadMed_Checked" FontSize="24"/>

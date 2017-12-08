@@ -36,16 +36,12 @@ namespace WpfApp4
         }
 
 
-
-
         private void LeadB_Click(object sender, RoutedEventArgs e)
         {
             LeaderBoard stats = new LeaderBoard();
             stats.Show();
 
         }
-
-        
 
         Ship[] playerShips = new Ship[5];
         Ship[] enemyShips = new Ship[5];
@@ -62,16 +58,6 @@ namespace WpfApp4
             MessageBox.Show(sender.ToString().Substring(sender.ToString().LastIndexOf(" ")));
 
         }
-
-      
-
-
-
-
-
-
-
-
 
         // UTILITY METHODS
         public static void Serialize(Object o, string filespec)

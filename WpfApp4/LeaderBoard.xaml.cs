@@ -24,7 +24,9 @@ namespace WpfApp4
         {
             InitializeComponent();
         }
-       
+
+        String name;
+
         public class Leaderboard
         {
             private String playerName;
@@ -57,6 +59,21 @@ namespace WpfApp4
 
             }
         }
-       
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            this.name = NameTextBox.Text;
+        }
+
+        private void EnterButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (name == "" || name == null)
+            {
+                System.Windows.MessageBox.Show("Please enter a valid name");
+            }
+
+            //create an array of player object and add the names in an order.
+            //then compare all the players in the list of array to create 
+        }
     }
 }

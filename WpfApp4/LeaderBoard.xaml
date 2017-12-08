@@ -5,24 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4"
         mc:Ignorable="d"
-        Title="LeaderBoard" Height="300" Width="300" Background="RoyalBlue">
+        Title="LeaderBoard" Height="428" Width="304" Background="RoyalBlue">
     <Grid>
         <Label Content="Leader Board" HorizontalAlignment="Left" Margin="97,10,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Segoe UI Semibold"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="198" Margin="30,46,0,0" Stroke="Black" VerticalAlignment="Top" Width="237"/>
-        <Label Content="Name" HorizontalAlignment="Left" Margin="30,46,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Score" HorizontalAlignment="Left" Margin="155,46,0,0" VerticalAlignment="Top" Width="112"/>
-        <ListBox Name="Names" HorizontalAlignment="Left" Height="167" Margin="30,77,0,0" VerticalAlignment="Top" Width="120">
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="198" Margin="30,162,0,0" Stroke="Black" VerticalAlignment="Top" Width="237"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="30,162,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Score" HorizontalAlignment="Left" Margin="155,162,0,0" VerticalAlignment="Top" Width="112"/>
+        <ListBox Name="Names" HorizontalAlignment="Left" Height="167" Margin="30,193,0,0" VerticalAlignment="Top" Width="120">
             <ListBoxItem Name="N1">Shazbot</ListBoxItem>
             <ListBoxItem Name="N2">Rick</ListBoxItem>
             <ListBoxItem Name="N3">Nat</ListBoxItem>
             <ListBoxItem Name="N4">Harry</ListBoxItem>
         </ListBox>
-        <ListBox Name="Scores" HorizontalAlignment="Left" Height="167" Margin="150,77,0,0" VerticalAlignment="Top" Width="117">
+        <ListBox Name="Scores" HorizontalAlignment="Left" Height="167" Margin="150,193,0,0" VerticalAlignment="Top" Width="117">
             <ListBoxItem Name="S1">375</ListBoxItem>
             <ListBoxItem Name="S2">250</ListBoxItem>
             <ListBoxItem Name="S3">175</ListBoxItem>
             <ListBoxItem Name="S4">5</ListBoxItem>
         </ListBox>
+        <TextBox x:Name="NameTextBox" HorizontalAlignment="Left" Height="23" Margin="30,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Enter your name : " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,71,0,0" Width="120" FontSize="14" FontFamily="Segoe UI Semibold"/>
+        <Button x:Name="EnterButton" Content="Enter" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="192,123,0,0" Click="EnterButton_Click"/>
 
     </Grid>
 </Window>
