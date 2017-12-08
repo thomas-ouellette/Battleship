@@ -90,6 +90,7 @@ namespace WpfApp4
 
         private void StartBut_Click(object sender, RoutedEventArgs e)
         {
+
             if (RadHard.IsEnabled == false || RadEa.IsEnabled == false || RadMed.IsEnabled == false)
             {
                 MessageBox.Show("Let the Battle Begin!");

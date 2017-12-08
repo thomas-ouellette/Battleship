@@ -6,7 +6,7 @@ public class AI
 {
     private int level;
     public Random rnd = new Random();
-    public int directionAI;
+    
     private String[,] BOARD = new String[10,10];
   
 
@@ -21,10 +21,8 @@ public class AI
         };
 
         level = 1;
-        directionAI = rnd.Next(1, 5);
         
-
-
+        
     }
     public AI(int lvl) : this()
     {
@@ -36,10 +34,7 @@ public class AI
 
        
     }
-    public String[,] getBoardCord()
-    {
-        return BOARD;
-    }
+    
     public void AIPlacement()
     {
         Ship Carrier = new Ship("Carrier", 5);
@@ -53,10 +48,22 @@ public class AI
         int CruLength = Cruiser.Health;
         int SubLength = Submarine.Health;
         int DesLength = Destroyer.Health;
+
+       
+        Boolean successful = false;
         
+        Ship[] AiShip = new Ship[] { Carrier, Battleship, Cruiser, Submarine, Destroyer };
+        // Iterate through ships and place them
+        foreach (Ship c in AiShip)
+        {
+            
+        }
+
+
     }
     public int AI_Attack()
     {
+
         if (level == 1)
         {
 

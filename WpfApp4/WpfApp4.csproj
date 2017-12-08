@@ -58,7 +58,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="AILevel.cs" />
+    <Compile Include="AI.cs" />
     <Compile Include="BattleShipPlacement.xaml.cs">
       <DependentUpon>BattleShipPlacement.xaml</DependentUpon>
     </Compile>
