@@ -45,32 +45,7 @@ namespace WpfApp4
 
         }
 
-        private void RadEa_Checked(object sender, RoutedEventArgs e)
-        {
-            AI Easy = new AI(1);
-            Easy.AIPlacement();
-            RadEa.IsEnabled = false;
-            RadHard.IsEnabled = false;
-            RadMed.IsEnabled = false;
-        }
-
-        private void RadMed_Checked(object sender, RoutedEventArgs e)
-        {
-            AI Medium = new AI(2);
-            Medium.AIPlacement();
-            RadEa.IsEnabled = false;
-            RadHard.IsEnabled = false;
-            RadMed.IsEnabled = false;
-        }
-
-        private void RadHard_Checked(object sender, RoutedEventArgs e)
-        {
-            AI Hard = new AI(3);
-            Hard.AIPlacement();
-            RadEa.IsEnabled = false;
-            RadHard.IsEnabled = false;
-            RadMed.IsEnabled = false;
-        }
+        
 
         Ship[] playerShips = new Ship[5];
         Ship[] enemyShips = new Ship[5];
@@ -88,18 +63,7 @@ namespace WpfApp4
 
         }
 
-        private void StartBut_Click(object sender, RoutedEventArgs e)
-        {
-
-            if (RadHard.IsEnabled == false || RadEa.IsEnabled == false || RadMed.IsEnabled == false)
-            {
-                MessageBox.Show("Let the Battle Begin!");
-            }
-            else
-            {
-                MessageBox.Show("Please choose a difficulty to begin.");
-            }
-        }
+      
 
 
 

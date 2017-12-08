@@ -6,9 +6,21 @@
         xmlns:local="clr-namespace:WpfApp4"
         mc:Ignorable="d"
         Title="BattleShipPlacement" Height="749.5" Width="1342.5">
+    
     <Grid>
         <Grid x:Name="GridBattleShipPlacement" HorizontalAlignment="Left" Height="400" Margin="466,159,0,0" VerticalAlignment="Top" Width="400" Background="#FF62CBE2"/>
         <Button x:Name="ShipPlacementNextButton" Content="Next" HorizontalAlignment="Left" VerticalAlignment="Top" Width="134" Margin="1148,563,0,0" Height="70" FontSize="48" Background="#FF62CBE2" Click="ShipPlacementNextButton_Click"/>
+        <Label Content="Place Your Battle Ships" HorizontalAlignment="Left" VerticalAlignment="Top" Height="90" Width="514" Margin="440,42,0,0" FontSize="48"/>
+        <GroupBox Header="Ships" HorizontalAlignment="Left" Height="186" Margin="36,350,0,0" VerticalAlignment="Top" Width="400" FontSize="20" BorderBrush="#FF0E1113" BorderThickness="3">
+            <StackPanel Margin="0,0,21,-1">
+                <Image x:Name="Boat2" Height="24" Width="58" HorizontalAlignment="Left" Margin="5,5,0,5" Source="2.png"/>
+                <Image Height="24" Width="92" Margin="5,0,0,5" HorizontalAlignment="Left" Cursor="Hand" Source="31.png"/>
+                <Image Height="24" Width="92" Margin="5,0,0,5" HorizontalAlignment="Left" Source="32.png" Cursor="Hand"/>
+                <Image Height="24" Width="126" Margin="5,0,0,5" HorizontalAlignment="Left" Source="4.png" Cursor="Hand"/>
+                <Image Height="24" Width="160" Margin="5,0,0,5" HorizontalAlignment="Left" Cursor="Hand" Source="5.png"/>
+
+            </StackPanel>
+        </GroupBox>
 
     </Grid>
 </Window>

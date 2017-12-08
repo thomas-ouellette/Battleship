@@ -237,26 +237,9 @@
                 <Button x:Name="J10_Computer_Button" Content="J10" Height ="40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Click="Button_Click" Margin="360,360,0,0" Grid.Column="2"/>
             </Grid>
             <Button x:Name="LeadB" Content="Leader Board" Grid.Column="1" HorizontalAlignment="Left" Margin="197,544,0,0" VerticalAlignment="Top" Width="153" Click="LeadB_Click" FontFamily="Comic Sans MS" FontSize="20"/>
-            <StackPanel HorizontalAlignment="Left" Height="142" Margin="24,150,0,0" VerticalAlignment="Top" Width="154">
-                <Label Content="Difficulty" FontSize="16" FontFamily="Comic Sans MS"/>
-                <RadioButton x:Name="RadEa" Content="Easy" Checked="RadEa_Checked" FontFamily="Comic Sans MS" FontSize="16"/>
-                <RadioButton x:Name="RadMed" Content="Medium" Checked="RadMed_Checked" FontFamily="Comic Sans MS" FontSize="16"/>
-                <RadioButton x:Name="RadHard" Content="Hard" Checked="RadHard_Checked" FontFamily="Comic Sans MS" FontSize="16"/>
-            </StackPanel>
-            <GroupBox Header="Ships" HorizontalAlignment="Left" Height="186" Margin="120,502,0,0" VerticalAlignment="Top" Width="400" FontSize="20" BorderBrush="#FF0E1113" BorderThickness="3">
-                <StackPanel Margin="0,0,21,-1">
-                    <Image x:Name="Boat2" Height="24" Width="58" HorizontalAlignment="Left" Margin="5,5,0,5" Source="2.png"/>
-                    <Image Height="24" Width="92" Margin="5,0,0,5" HorizontalAlignment="Left" Cursor="Hand" Source="31.png"/>
-                    <Image Height="24" Width="92" Margin="5,0,0,5" HorizontalAlignment="Left" Source="32.png" Cursor="Hand"/>
-                    <Image Height="24" Width="126" Margin="5,0,0,5" HorizontalAlignment="Left" Source="4.png" Cursor="Hand"/>
-                    <Image Height="24" Width="160" Margin="5,0,0,5" HorizontalAlignment="Left" Cursor="Hand" Source="5.png"/>
-
-                </StackPanel>
-            </GroupBox>
             <Label HorizontalAlignment="Left" Margin="196,29,0,0" VerticalAlignment="Top" FontSize="20" HorizontalContentAlignment="Left">
                 <Label Content="Player Grid" Width="224"/>
             </Label>
-            <Button x:Name="StartBut" Content="Start" HorizontalAlignment="Left" Margin="55,108,0,0" VerticalAlignment="Top" Width="74" Click="StartBut_Click" FontSize="20"/>
             <Label Content="Enemy Grid" Grid.Column="1" HorizontalAlignment="Left" Margin="71,36,0,0" VerticalAlignment="Top" Width="135" FontSize="20"/>
             <Label Content="Lives:" Grid.Column="1" HorizontalAlignment="Left" Margin="527,150,0,0" VerticalAlignment="Top" FontSize="20"/>
             <Label Content="Hits:" Grid.Column="1" HorizontalAlignment="Left" Margin="527,198,0,0" VerticalAlignment="Top" FontSize="20"/>
