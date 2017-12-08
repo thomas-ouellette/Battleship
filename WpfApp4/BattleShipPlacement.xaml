@@ -7,8 +7,42 @@
         mc:Ignorable="d"
         Title="BattleShipPlacement" Height="749.5" Width="1342.5">
     <Grid>
-        <Grid x:Name="GridBattleShipPlacement" HorizontalAlignment="Left" Height="400" Margin="466,159,0,0" VerticalAlignment="Top" Width="400" Background="#FF62CBE2"/>
+        <Grid x:Name="GridBattleShipPlacement" ShowGridLines="True" HorizontalAlignment="Left" Height="400" Margin="700,100,0,0" VerticalAlignment="Top" Width="400" Background="#FF62CBE2" MouseLeftButtonDown="GridBattleShipPlacement_MouseLeftButtonDown">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="40"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+        </Grid>
         <Button x:Name="ShipPlacementNextButton" Content="Next" HorizontalAlignment="Left" VerticalAlignment="Top" Width="134" Margin="1148,563,0,0" Height="70" FontSize="48" Background="#FF62CBE2" Click="ShipPlacementNextButton_Click"/>
 
+        <Image Name="Boat2" Height="40" Width="80" Margin="220,167,0,512" HorizontalAlignment="Left" Cursor="Hand" Source="2.png" MouseLeftButtonDown="Boat2_MouseLeftButtonUp"/>
+        <Image Name="Boat31" Height="40" Width="120" Margin="220,212,0,470" HorizontalAlignment="Left" Cursor="Hand" Source="31.png" MouseLeftButtonDown="Boat31_MouseLeftButtonDown"/>
+        <Image Name="Boat32" Height="40" Width="120" Margin="220,254,0,427" HorizontalAlignment="Left" Cursor="Hand" Source="32.png" MouseLeftButtonDown="Boat32_MouseLeftButtonDown"/>
+        <Image Name="Boat4" Height="40" Width="160" Margin="220,297,0,380" HorizontalAlignment="Left" Cursor="Hand" Source="4.png" MouseLeftButtonDown="Boat4_MouseLeftButtonDown"/>
+        <Image Name="Boat5" Height="40" Width="200" Margin="220,343,0,336" HorizontalAlignment="Left" Cursor="Hand" Source="5.png" MouseLeftButtonDown="Boat5_MouseLeftButtonDown"/>
     </Grid>
 </Window>

@@ -15,9 +15,7 @@
         public int Health { get { return healthPoints; } private set { } }
         
         public string ShipType { get { return type; } private set { } }
-
-        public Ship() { }
-
+        
         public Ship(string type, int healthPoints)
         {
             this.healthPoints = healthPoints;
