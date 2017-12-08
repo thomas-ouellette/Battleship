@@ -74,7 +74,7 @@ namespace WpfApp4
 
         Ship[] playerShips = new Ship[5];
         Ship[] enemyShips = new Ship[5];
-
+       
 
         Point p;
 
@@ -102,7 +102,19 @@ namespace WpfApp4
         }
 
 
-
+        /*public string hasWon()
+        {
+            if (playerShips.Health() == 0)
+            {
+                return "AI Has won!";
+            }
+            else if (enemyShips.Health() == 0)
+            {
+                return "You Win!";
+            }
+            else
+                return "Draw!";
+        }*/
 
 
 

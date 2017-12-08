@@ -65,15 +65,15 @@ namespace WpfApp4
         public int AI_Attack()
         {
 
-            if (level == 1)
+            if (level == 1)//Attacks Randomly
             {
 
             }
-            else if (level == 2)
+            else if (level == 2)//Attacks around target hit
             {
 
             }
-            else if (level == 3)
+            else if (level == 3)//Attacks strategic locations on the grid and then follows up with lvl2 AI if vessel is found
             {
 
             }
